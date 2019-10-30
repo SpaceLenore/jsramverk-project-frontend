@@ -64,5 +64,6 @@ export default {
         padding: 5px;
         border: 1px solid #485460;
         background: #d2dae2;
+        color: #485460;
     }
 </style>
