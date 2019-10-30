@@ -12,7 +12,7 @@
                         Stonk markets!
                     </p>
                 </div>
-                <div class="half-card">
+                <div class="half-card light">
                     <div class="signup-form">
                         <form @submit.prevent="sendForm">
                             <input type="text" placeholder="Name">

@@ -29,6 +29,11 @@ html, body {
   margin: 1rem auto;
 }
 
+.small-card {
+    width: 25vw;
+    padding: 1rem;
+}
+
 .split {
   display: flex;
 }
@@ -41,6 +46,25 @@ html, body {
 .dark {
   background: #485460;
   color: #fff;  
+}
+
+.light {
+    background: #fff;
+    color: #485460;
+}
+
+.fancy-bt {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+    background: #485460;
+    box-shadow: 1px 2px 3px darkgray;
+    transition: 0.3s; 
+  }
+
+.fancy-bt:hover {
+    box-shadow: 2px 4px 6px darkgray;
 }
 
 @media screen and (max-width: 800px) {
@@ -56,5 +80,6 @@ html, body {
   .half-card {
     width: initial;
   }
+
 }
 </style>

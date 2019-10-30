@@ -10,7 +10,7 @@
                         fingertips accessible from anywhere in the world!
                     </p>
                 </div>
-                <div class="half-card">
+                <div class="half-card light">
                     <div class="login-form">
                         <form @submit.prevent="sendForm">
                             <input type="email" placeholder="Email">
