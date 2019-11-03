@@ -1,6 +1,5 @@
 <template>
     <div class="view">
-        <Navbar></Navbar>
         <div class="content">
             <div class="card half-width split">
                 <div class="half-card dark">
@@ -29,14 +28,8 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import Navbar from "@/components/Navbar.vue";
-
 export default {
     name: "signup",
-    components: {
-        Navbar
-    },
     data() {
         return {
 

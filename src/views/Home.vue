@@ -1,6 +1,5 @@
 <template>
     <div class="view">
-        <Navbar></Navbar>
         <div class="content">
             <div class="banner">
                 <div class="placement">
@@ -20,13 +19,8 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
-
 export default {
-    name: "home",
-    components: {
-        Navbar
-    }
+    name: "home"
 };
 </script>
 
